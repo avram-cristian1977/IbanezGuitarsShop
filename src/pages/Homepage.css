@@ -1,0 +1,31 @@
+.homepageSections{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+.vailogoWrapper{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+
+}
+
+.vailogoWrapper img{
+    width: 50%;
+    
+    
+}
+@media(max-width:800px) {
+    .homepageSections{
+        display: flex;
+        flex-direction: column;
+    }
+}

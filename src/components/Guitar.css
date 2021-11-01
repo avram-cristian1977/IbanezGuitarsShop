@@ -1,0 +1,72 @@
+.guitar-info {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 0px 0px 10px 0px;
+    margin: 10px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    color: rgb(88, 88, 88);
+    box-shadow: 2px 5px 8px 0px #6e6e6e;
+    transition: all 0.5s ease;
+    font-size: 1vw;
+    background-color: rgb(237, 255, 188);
+    position: absolute;
+    bottom:20px;
+    right:0;
+    
+  
+   
+}
+.guitar-info p{
+    margin: 0;
+}
+
+.price {
+    background-color: rgb(114, 114, 98);
+    display: inline-block;
+    color: white;
+    padding: 0px 4px 1px 4px;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.guitar-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+ 
+}
+
+.guitar-card img {
+    width: 100%;
+}
+
+.guitar-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.hrstyle {
+    height: 3px;
+    border: 1px;
+    box-shadow: inset 0 4px 4px -3px rgb(237, 255, 188);
+    width: 100%;
+}
+
+.labelHole{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(75, 75, 75);
+    float: right;
+}

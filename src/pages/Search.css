@@ -1,0 +1,29 @@
+.searchGuitarCard{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.searchedImageTitle{
+    font-size: 30px;
+}
+
+.searchGuitarCard p{
+   margin:0
+}
+
+.searchGuitarCard p span{
+    font-weight: bolder;
+ }
+ 
+
+.searchedGuitarImageWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.searchedGuitarImageWrapper img{
+    width: 100%;
+    margin: 50px 0 50px 0;
+}

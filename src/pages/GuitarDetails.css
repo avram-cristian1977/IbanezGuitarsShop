@@ -1,0 +1,12 @@
+.goBackButton{
+    padding: 5px;
+    margin: 10px;
+    background-color:  rgb(114, 114, 98);
+  color: rgb(237, 255, 188);
+  border-radius: 3px;
+  border:none;
+}
+
+.goBackButton :hover{
+   cursor: pointer;
+}

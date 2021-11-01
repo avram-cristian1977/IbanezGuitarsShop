@@ -1,0 +1,27 @@
+.partnerImgWrapper{
+   
+    width: 80px;
+}
+
+.partnerImgWrapper img{
+    width: 100%;
+    margin: 5px;
+    box-shadow: 3px 3px 3px grey;
+}
+/* .partnersWrapper{
+    position: absolute;
+    left:50px;
+    top:70px
+} */
+
+.ourPartnersTxt{
+    margin-bottom: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+}
+
+@media(max-width:800px) {
+    .partnerImgWrapper, .ourPartnersTxt{
+        display: none;
+    }
+}

@@ -1,0 +1,267 @@
+.formWrapper {
+    width: 350px;
+    margin: auto;
+}
+
+.form {
+    margin-top: 100px;
+    background-color: rgb(237, 255, 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(114, 114, 98);
+    ;
+}
+
+.loadingSpinnerWrapper{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.form div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.form div input {
+    outline: none;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: none
+}
+
+form button {
+    display: inline-block;
+    margin: auto;
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(237, 255, 188);
+    background-color: rgb(114, 114, 98);
+    padding: 2px 4px 4px 4px;
+    border-radius: 2px;
+    border: none
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+.formErrorMsg {
+    text-align: center;
+    height: 1px;
+}
+
+.adminPanelWrapper {
+    font-family: 'Zen Kurenaido', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.panelSections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.panelTitle {
+    text-align: center;
+    color: rgb(237, 255, 188);
+    font-size: 28px;
+}
+
+.guitarPanelEntry {
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 173, 152);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.adminPanel {
+    background-color: rgb(114, 114, 98);;
+    margin: auto;
+    width: 600px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.adminPanel tr th {
+    color: rgb(237, 255, 188);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1px;
+}
+
+.adminPanel table td {
+    padding: 2px;
+}
+
+.actionTd {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adminPanel table tr:nth-child(even) {
+    background-color: rgb(218, 218, 192);;
+}
+
+.adminPanel table td button {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    background-color: rgb(201, 197, 197);
+    border: none;
+    border-radius: 3px;
+    width: 95%;
+    margin: 2px;
+    border: rgb(87, 86, 86) solid 1px;
+}
+
+
+
+.adminPanel table td button:hover {
+    cursor: pointer;
+}
+
+#deleteBtn {
+    background-color: rgb(160, 89, 105);
+    color: rgb(255, 255, 255);
+}
+
+
+#updateBtn {
+    background-color: rgb(69, 87, 143);
+    color: rgb(255, 255, 255);
+}
+
+.adminPanel input::placeholder {
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-style: italic;
+}
+
+.adminPanel input {
+    font-family: 'Zen Kurenaido', sans-serif;
+    width: 60px;
+}
+.isAvailableBtn{
+    border: 1px solid green;
+}
+.adminPanel p {
+    margin: 0;
+}
+
+.adminMsg {
+    height: 35px;
+}
+
+.adminMsg h4 {
+    margin: 0;
+    color: rgb(116, 20, 20);
+    text-align: center;
+}
+
+.creationFormWrapper {
+    background-color: rgb(237, 255, 188);
+    width: 300px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.creationFormWrapper.creationForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panelSections button {
+    border: none;
+    color: rgb(114, 114, 98);
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    background-color: rgb(237, 255, 188);
+    border-radius: 3px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.panelSections button:hover {
+    cursor: pointer;
+}
+
+.creationForm div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.creationForm div input {
+    width: 100px;
+    background-color: rgb(114, 114, 98);
+    border: none;
+    outline: none;
+    color: rgb(237, 255, 188);
+    font-size: 20px;
+}
+
+select{
+    background-color: rgb(114, 114, 98);
+    border: none;
+    outline: none;
+    color: rgb(237, 255, 188);
+    height: 30px;
+}
+
+.creationForm textarea {
+    background-color: rgb(114, 114, 98);
+    color: rgb(237, 255, 188)
+}
+
+#createGuitarBtn {
+    background-color: rgb(85, 119, 109);
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: rgb(255, 255, 255);
+    width: auto;
+    margin: auto;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding-bottom: 5px;
+}
+
+#createGuitarBtn:hover {
+    cursor: pointer;
+}
+
+.errorCreateGuitar {
+    color: rgb(216, 95, 95);
+    height: 30px;
+    margin: auto;
+}
+
+.errorCreateGuitar p {
+    margin: auto;
+}
+
+.green {
+   color:rgb(0, 87, 128)
+}
+
+.red {
+    color: rgb(88, 2, 20);
+}
+
+#root > div > div.adminPanelWrapper > div > div.creationFormWrapper > div > div:nth-child(6) > input[type=checkbox]{
+    background-color: greenyellow;
+}

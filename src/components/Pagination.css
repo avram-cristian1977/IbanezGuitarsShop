@@ -1,0 +1,27 @@
+.paginationNavLinks{
+    background: transparent;
+}
+.paginationNavLinks ul{
+ 
+   display: flex;
+   justify-content: center;
+  
+}
+
+.paginationNavLinks ul li {
+    
+   list-style-type: none;
+   margin: 10px;
+   border: 1px solid rgb(114, 114, 98);
+   background-color: rgb(237, 255, 188);
+   padding: 2px;
+   border-radius: 5px;
+}
+
+
+.paginationNavLinks ul li a{
+    
+   list-style-type: none;
+   margin: 10px;
+   border: 1px solid greeen;
+}

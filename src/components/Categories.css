@@ -1,0 +1,49 @@
+.guitars-categories {
+    margin-top: 20px;
+    
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ourCategorisTxt{
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    margin: 0 25px 0 25px;
+    width: 60px;
+    transition: all 0.5s ease;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.imageWrapper:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 2px rgb(129, 129, 129);
+    transform: scale(1.05);
+}
+
+
+.guitarCategoryTitle {
+    margin: 0;
+    border: solid 1px rgb(226, 226, 226);
+    text-align: center;
+    background-color: rgb(237, 255, 188);
+    padding: 0px 3px 3px 3px;
+    border-radius: 3px 3px 10px 3px;
+    box-shadow: 2px 4px 8px -3px rgba(173, 173, 173, 0.8);
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 16px;
+    color: rgb(64, 64, 65);
+}

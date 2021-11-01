@@ -1,0 +1,11 @@
+.fa-arrow-circle-up{
+   color: rgb(114, 114, 98);
+    float: right;
+    margin: 10px;
+    font-size:40px;
+}
+
+.fa-arrow-circle-up:hover{
+   cursor: pointer;
+   color: rgb(48, 48, 41);
+ }

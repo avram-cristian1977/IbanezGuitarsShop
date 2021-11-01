@@ -1,0 +1,125 @@
+nav {
+    background-color: rgb(237, 255, 188);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0
+}
+
+.homeLi {
+    background-color: rgb(114, 114, 98);
+    color: white;
+    border-radius: 5px;
+    padding: 0 4px 4px 4px;
+    margin: 10px;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.homeLi:hover {
+    cursor: pointer;
+}
+
+.searchInput {
+    border-radius: 3px 0 3px 0;
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+.searchInput::placeholder {
+    color: rgb(185, 185, 185);
+    font-style: italic;
+}
+
+.logoImg {
+    width: 100%;
+    border: 1px solid rgb(114, 114, 98);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logoImgWrapper {
+    display: flex;
+    width: 100px;
+    margin-left: 18vw;
+}
+
+.logoImgWrapper :hover {
+    cursor: pointer;
+}
+
+.searchBtn {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgb(114, 114, 98);
+    border-radius: 0 3px 3px 0;
+    height: 25px;
+    color: white;
+}
+
+.greeting {
+    font-family: 'Zen Kurenaido', sans-serif;
+    list-style: none;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    color:white;
+    font-size: 18px;
+    margin: 0;
+    padding: 2px 5px 5px 10px;
+    background-color: rgb(114, 114, 98);
+    border-radius: 5px 0 0 5px;
+}
+
+.logoutBtn {
+    font-family: 'Zen Kurenaido', sans-serif;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(114, 114, 98);
+    color: white;
+}
+
+.logoutBtn:hover {
+    cursor: pointer;
+}
+
+.loggedAsAdminTxt {
+    margin: 0 5px 0 5px;
+    color: rgb(114, 114, 98);
+    width: auto;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 16px;
+
+}
+
+
+@media (max-width:1050px) {
+    .greeting {
+        display: none;
+    }
+}
+
+
+@media (max-width:570px) {
+    .logoImgWrapper {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width:570px) {
+    .logoImgWrapper {
+        display: none;
+    }
+}
+
+@media (max-width:350px) {
+    .searchInput {
+        width: 150px;
+    }
+}

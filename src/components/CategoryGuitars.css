@@ -1,0 +1,9 @@
+.categoryTitle{
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.guitarCatword{
+    text-transform: lowercase;
+}
